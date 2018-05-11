@@ -4,5 +4,5 @@ This is a note for some background knowledge of DRAM for personal use, summarize
 
 ### DRAM storage cell
 
-![dram_storage_cell](/Users/dgh14/Desktop/study/9-其他资料/knowledge/DRAM/dram_storage_cell.png)
+![dram_storage_cell](./dram_storage_cell.png)
 
