@@ -67,3 +67,29 @@ Fig. 7 shows the timing of read operation.
 <div align=center>
 <img src="./read_operation_timing.png" width="600px"/><br>Fig. 7 Timing of read operation
 </div>
+
+## DRAM Memory Organization
+
+Based on the organization of DRAM cell mentioned above, we can get an array of DRAM cells with some modifications, shown in Fig. 8. 
+<div align=center>
+<img src="./one_csl.png" width="600px"/><br>Fig. 8 DRAM cells array
+</div>
+We have 8 worlindes, 1 CSL/WE, and we can access 2 bits at one time, so it's an $$8 \times 1 \times 2$$ array. More generally, it can be a $$m \times n \times w$$ array, where $$m$$ is the number of Wordlines,  $$n$$ is the number of CSL/WE, and $$w$$ is the width of bits for once access. We call them Rows, Columns, and Data Width. A general example is shown in Fig. 9.
+<div align=center>
+<img src="./array.png" width="600px"/><br>Fig. 9 A Rows$$\times$$Columns$$\times$$Data Width array
+</div>
+For performance purpose, we call an array shown in Fig. 9 as a bank. Multiple banks are organized, and only one is accessed, shown in Fig. 10.
+<div align=center>
+<img src="./banks.png" width="600px"/><br>Fig. 10 DRAM banks
+</div>
+
+
+
+
+
+
+
+
+
+
+
