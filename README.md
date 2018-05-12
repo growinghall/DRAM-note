@@ -5,8 +5,6 @@ This is a note for some background knowledge of DRAM for personal use, summarize
 ### DRAM storage cell
 Fig. 1 shows a simple example of 1T1C (1 transistor 1 capacitor) DRAM cell, the reference voltage is V<sub>cc</sub>/2
 <div align=center>
-<img src="./dram_storage_cell.png">
-
-Fig. 1DRAM cell example
+<img src="./dram_storage_cell.png"><br>Fig. 1DRAM cell example
 </div>
 
