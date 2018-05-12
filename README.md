@@ -28,4 +28,12 @@ Sensing Circuit and Voltage Equalization Circuit are added to Fig. 1, shown in F
 <img src="./differential_sense_amplifier.png")<br>Fig. 2 Differential Sense Amplifier
 </div>
 
+The read operation is performed in four steps, namely **Precharge**, **Access**, **Sense**, **Restore**. The write operation is performed in five steps, namely **Precharge**, **Access**, **Sense**, **Restore**, **Write Recovery**.
+
+- Precharge
+
+  Set EQ = 1, T<sub>e1</sub>, T<sub>e2</sub>, and T<sub>e3</sub> are conducted, the voltage of Bitline and /Bitline is set to V<sub>ref</sub>=V<sub>cc</sub>/2
+  <div align=center>
+  <img src="./precharge.png")<br>Fig. 3 Precharge
+  </div>
 
