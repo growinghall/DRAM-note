@@ -25,7 +25,7 @@ To solve all these problems, the Differential Sense Amplifier is introduced.
 Sensing Circuit and Voltage Equalization Circuit are added to Fig. 1, shown in Fig. 2.
 
 <div align=center>
-<img src="./differential_sense_amplifier.png")<br>Fig. 2 Differential Sense Amplifier
+<img src="./differential_sense_amplifier.png" width="800px"/><br>Fig. 2 Differential Sense Amplifier
 </div>
 
 The read operation is performed in four steps, namely **Precharge**, **Access**, **Sense**, **Restore**. The write operation is performed in five steps, namely **Precharge**, **Access**, **Sense**, **Restore**, **Write Recovery**.
@@ -34,14 +34,14 @@ The read operation is performed in four steps, namely **Precharge**, **Access**,
   
   Set EQ = 1, T<sub>e1</sub>, T<sub>e2</sub>, and T<sub>e3</sub> are conducted, the voltage of Bitline and /Bitline is set to V<sub>ref</sub>=V<sub>cc</sub>/2.
   <div align=center>
-  <img src="./precharge.png" width="200px"/><br>Fig. 3 Precharge
+  <img src="./precharge.png" width="800px"/><br>Fig. 3 Precharge
   </div>
   
 - Access
   
   Set Wordline = 1 (here is an example, where information 1 is stored on the capacitor), then the voltage of Bitline is changed to V<sub>ref</sub>+.
   <div align=center>
-  <img src="./access.png" width="200px"/><br>Fig. 4 Access
+  <img src="./access.png" width="800px"/><br>Fig. 4 Access
   </div>
   
 - Sense
@@ -55,7 +55,7 @@ The read operation is performed in four steps, namely **Precharge**, **Access**,
 
   After the Sense step, the storage capacitor will be recharged by Bitline. Set CSL = 1, T<sub>c1</sub> and T<sub>c2</sub> are conducted, then the information can be read from the Output port.
   <div align=center>
-  <img src="./restore.png" width="200px"/><br>Fig. 6 Restore
+  <img src="./restore.png" width="800px"/><br>Fig. 6 Restore
   </div>
 
 - Write Recovery
@@ -65,5 +65,5 @@ The read operation is performed in four steps, namely **Precharge**, **Access**,
 ### Timing
 Fig. 7 shows the timing of read operation.
 <div align=center>
-<img src="./read_operation_timing.png" width="200px"/><br>Fig. 7 Timing of read operation
+<img src="./read_operation_timing.png" width="800px"/><br>Fig. 7 Timing of read operation
 </div>
