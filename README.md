@@ -34,28 +34,28 @@ The read operation is performed in four steps, namely **Precharge**, **Access**,
   
   Set EQ = 1, T<sub>e1</sub>, T<sub>e2</sub>, and T<sub>e3</sub> are conducted, the voltage of Bitline and /Bitline is set to V<sub>ref</sub>=V<sub>cc</sub>/2.
   <div align=center>
-  <img src="./precharge.png")<br>Fig. 3 Precharge
+  <img src="./precharge.png" width="200px"/><br>Fig. 3 Precharge
   </div>
   
 - Access
   
   Set Wordline = 1 (here is an example, where information 1 is stored on the capacitor), then the voltage of Bitline is changed to V<sub>ref</sub>+.
   <div align=center>
-  <img src="./access.png")<br>Fig. 4 Access
+  <img src="./access.png" width="200px"/><br>Fig. 4 Access
   </div>
   
 - Sense
 
   Because the voltage of Bitline is set to V<sub>ref</sub>+, T<sub>n2</sub> and T<sub>p1</sub> will be conducted. SAN and SAP are set to 0 and 1 respectively. Thus, Bitline and /Bitline will be charged to 1 and 0.
   <div align=center>
-  <img src="./sense.png")<br>Fig. 5 Sense
+  <img src="./sense.png" width="200px"/><br>Fig. 5 Sense
   </div>
 
 - Restore
 
   After the Sense step, the storage capacitor will be recharged by Bitline. Set CSL = 1, T<sub>c1</sub> and T<sub>c2</sub> are conducted, then the information can be read from the Output port.
   <div align=center>
-  <img src="./restore.png")<br>Fig. 6 Restore
+  <img src="./restore.png" width="200px"/><br>Fig. 6 Restore
   </div>
 
 - Write Recovery
@@ -65,5 +65,5 @@ The read operation is performed in four steps, namely **Precharge**, **Access**,
 ### Timing
 Fig. 7 shows the timing of read operation.
 <div align=center>
-<img src="./read_operation_timing.png")<br>Fig. 7 Timing of read operation
+<img src="./read_operation_timing.png" width="200px"/><br>Fig. 7 Timing of read operation
 </div>
