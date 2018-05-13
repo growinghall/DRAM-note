@@ -105,6 +105,8 @@ The function of each port is shown in Table 1.
 | BA[1:0] | Input | bank address |
 | A[12:0] | Input | address bus |
 | DQ[15:0] | Input/Output | data bus |
+
+
 Table 1 SDR DRAM interface function
 
 By controlling these signals, host device can perform different operations on the SDR DRAM, including:
