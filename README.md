@@ -93,7 +93,7 @@ We take SDR DRAM (Single Data Rate DRAM) as an example, the interface of an SDR 
 
 The function of each port is shown in Table 1.
 
-<div align=center>
+
 | Symbol | Type | Description |
 | --- | --- | --- |
 | CLK | Input | clock |
@@ -106,6 +106,8 @@ The function of each port is shown in Table 1.
 | BA[1:0] | Input | bank address |
 | A[12:0] | Input | address bus |
 | DQ[15:0] | Input/Output | data bus |
+<div align=center>
+
 Table 1 SDR DRAM interface function
 
 </div>
