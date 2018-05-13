@@ -113,15 +113,23 @@ By controlling these signals, host device can perform different operations on th
 
 - #### Active
 
-  Choosing a row in a bank, then activating the wordline (row data —> SA)
+  Choosing a row in a bank, then activating the wordline (row data —> SA).
 
 - #### Read/Write
 
+  Data transfer between DRAM and the host.
+
 - #### Precharge
+
+  Precharge operation.
 
 - #### Auto-Refresh
 
+  Auto precharge for all cells.
+
 - #### Self-Refresh
+
+  In the state, the host cannot access DRAM, then DRAM performs precharge for all cells.
 
 
 
