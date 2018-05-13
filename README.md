@@ -83,6 +83,37 @@ For performance purpose, we call an array shown in Fig. 9 as a bank. Multiple ba
 <img src="./banks.png" width="200px"/><br>Fig. 10 DRAM banks
 </div>
 
+## DRAM Device
+
+We take SDR DRAM (Single Data Rate DRAM) as an example, the interface of an SDR DRAM is shown in Fig. 11.
+
+<div align=center>
+<img src="./sdram_interface.png" width="400px"/><br>Fig. 11 SDR DRAM interface
+</div>
+
+The function of each port is shown in Table 1.
+
+<div align=center>
+| Symbol | Type | Description |
+| --- | --- | --- |
+| CLK | Input | clock |
+| CKE | Input | clock enable |
+| CS# | Input | chip select |
+| CAS# | Input | column address strobe/select |
+| RAS# | Input | row address strobe/select |
+| WE# | Input | write enable |
+| DQMH/DQML | Input | masks for DQ |
+| BA[1:0] | Input | bank address |
+| A[12:0] | Input | address bus |
+| DQ[15:0] | Input/Output | data bus |
+Table 1 SDR DRAM interface function
+
+</div>
+
+
+
+
+
 
 
 
