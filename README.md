@@ -93,7 +93,6 @@ We take SDR DRAM (Single Data Rate DRAM) as an example, the interface of an SDR 
 
 The function of each port is shown in Table 1.
 
-<div align=center>
 | Symbol | Type | Description |
 | --- | --- | --- |
 | CLK | Input | clock |
@@ -106,11 +105,21 @@ The function of each port is shown in Table 1.
 | BA[1:0] | Input | bank address |
 | A[12:0] | Input | address bus |
 | DQ[15:0] | Input/Output | data bus |
-
-
 Table 1 SDR DRAM interface function
 
-</div>
+By controlling these signals, host device can perform different operations on the SDR DRAM, including:
+
+- #### Active
+
+  Choosing a row in a bank, then activating the wordline (row data —> SA)
+
+- #### Read/Write
+
+- #### Precharge
+
+- #### Auto-Refresh
+
+- #### Self-Refresh
 
 
 
